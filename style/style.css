@@ -1,0 +1,90 @@
+:root{
+    --primary-color:#F3CA52;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#resultado {
+    text-align: right;
+    font-weight: bold;
+    color: #ffffff; /* Cambiado a rojo para mejor visibilidad */
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+#fileInput {
+    display: none; /* Hide the actual file input */
+}
+
+.file-label {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.file-label:hover {
+    background-color: var(--primary-color);
+}
